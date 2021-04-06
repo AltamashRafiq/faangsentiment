@@ -9,7 +9,7 @@ This project implements an end to end serverless sentiment analysis pipeline usi
 # Sample Sentiment
 
 **Message**: Instagram (commonly abbreviated to IG or Insta) is an American photo and video sharing social networking service created by Kevin Systrom and Mike Krieger.  
-**Sentiment**: Neutral
-**Sample Entity 1**: Instagram: Title
-**Sample Entity 2**: American: Other
-**Sample Entity 3**: Kevin Systrom: Person
+**Sentiment**: Neutral  
+**Sample Entity 1**: Instagram: Title  
+**Sample Entity 2**: American: Other  
+**Sample Entity 3**: Kevin Systrom: Person   
