@@ -1,8 +1,8 @@
 # AWS Sentiment Analaysis Pipeline
 
-This project implements an end to end serverless sentiment analysis pipeline using AWS Lambda for serverless deployment and AWS Comprehend to do the sentiment analysis. AWS Simple Queue Service (SQS) is used to queue messages stored in DynameDB for analaysis and the output is saved to an S3 bucket. The architecture of the pipeline is displayed in Figure 1. Given the name of a FAANG company as a key value pair of the form {"name": "<faang-company>"}, the Wikipedia article for the named company is scraped and snippets of it are analyzed to determine their sentiment.
+This project implements an end to end serverless sentiment analysis pipeline using AWS Lambda for serverless deployment and AWS Comprehend to do the sentiment analysis. AWS Simple Queue Service (SQS) is used to queue messages stored in DynameDB for analaysis. The output is generated as JSON files packets, making them easy to use for further processing. The architecture of the pipeline is displayed below. Given the name of a FAANG company as a key value pair of the form {"name": "\<faang-company\>"}, the Wikipedia article for the named company is scraped and snippets of it are analyzed to determine their sentiment.
   
-<img src="https://github.com/AltamashRafiq/faangsentiment/blob/main/img11.png" width="800">
+<img src="https://github.com/AltamashRafiq/faangsentiment/blob/main/img11.png" width="800", align = "centre">
 
 # Sample Sentiments
 
