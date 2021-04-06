@@ -8,8 +8,8 @@ This project implements an end to end serverless sentiment analysis pipeline usi
 
 # Sample Sentiments
 
-**Message**: Instagram (commonly abbreviated to IG or Insta) is an American photo and video sharing social networking service created by Kevin Systrom and Mike Krieger.
+**Message**: Instagram (commonly abbreviated to IG or Insta) is an American photo and video sharing social networking service created by Kevin Systrom and Mike Krieger.  
 **Sentiment**: Neutral
 
-**Message**: A face book or facebook is a common or web directory found at some American universities consisting of individuals’ photographs and names.'.
+**Message**: A face book or facebook is a common or web directory found at some American universities consisting of individuals’ photographs and names.'.  
 **Sentiment**: Neutral
